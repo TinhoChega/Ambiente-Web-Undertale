@@ -111,7 +111,6 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    text-align: end;
     font-family: "undertale", sans-serif;
 }
 
@@ -159,9 +158,23 @@ p {
     color:white;
 }
 
-img {
-    margin: auto;
+.Underimg {
     display: block;
+    margin: 0 auto;
     width: 30%;
     margin-top: 15px;
+    
 }
+
+.footerP {
+    float: inline-end;
+}
+
+.footerImg {
+    width: 6%;
+    float: inline-end;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
